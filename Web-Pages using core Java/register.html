@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="assets/css/demo.css">
+	<link rel="stylesheet" href="assets/css/form-register.css">
+</head>
+<body>
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-register.css -->
+
+        <form class="form-register" method="POST" action="Register">
+
+            <div class="form-register-with-email">
+
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Create an account</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>User Id</span>
+                            <input type="text" name="userId">
+                        </label>
+                    </div>
+
+                    <div class="form-row col-md-6">
+                        <label>
+                            <span>First Name</span>
+                            <input type="text" name="firstName">
+                        </label>
+                    </div>
+
+                    <div class="form-row col-md-6">
+                        <label>
+                            <span>Last Name</span>
+                            <input type="text" name="lastName">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="emailId">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                    </div>
+
+                    <div class="form-row col-md-6">
+                        <label>
+                            <span>Date of Birth</span>
+                            <input type="Date" name="dob">
+                        </label>
+                    </div>
+
+                    <div class="form-row col-md-6">
+                        <label>
+                            <span>Sex</span>
+                            <select name="sex">
+                                <option value="M">Male</option>
+                                <option value="F">Female</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Contact</span>
+                            <input type="number" name="contact">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-checkbox">
+                            <input type="checkbox" name="" checked>
+                            <span>I agree to the <a href="#">terms and conditions</a></span>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Register</button>
+                    </div>
+
+                </div>
+
+                <a href="#" class="form-log-in-with-existing">Already have an account? Login here &rarr;</a>
+
+            </div>
+
+            
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
